@@ -1,0 +1,14 @@
+:root{
+    --base: #701c96;
+    --textWhite: white;
+}
+.textColor{
+    color: var(--textWhite);
+}
+
+.bg-nav{
+    background-color: var(--base);
+}
+.footer-bg{
+    background-color: var(--base);
+}

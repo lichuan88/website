@@ -1,0 +1,52 @@
+.header-size{
+    padding:  0;
+    min-width: 1024px;
+    position: sticky;
+    top: 0;
+}
+.header-top-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.header-search{
+    display: flex;
+    align-items: center;
+}
+.search-size{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #701c96;
+}
+.btn-gcu{
+    border: 1px solid #701c96;
+    border-radius: 3px;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    color: #701c96;
+}
+
+.nav{
+    margin-left: 8%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav>li>a:hover{
+    text-decoration: none;
+    background-color: #7f12b1;
+}
+.dropdown-menu >li>a>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav li ul li{
+    height: 40px;
+}
+.margin-top-nav{
+    margin-top: 15px;
+}
