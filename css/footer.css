@@ -9,13 +9,13 @@
     flex-direction: column;
 }
 .footer-padding{
-   padding-top: 5%;
+   padding-top: 55px;
 }
 .f_text-size{
     font-size: 16px;
 }
 .f_text{
-    width: 30%; 
+    width: 400px; 
     display: flex;
     justify-content: space-around;
 }
