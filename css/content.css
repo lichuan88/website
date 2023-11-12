@@ -1,5 +1,5 @@
 .article {
-  min-height: 500px;
+  min-height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,4 +58,110 @@
 
 .article_topic > div:first-child {
   width: 100%;
+}
+body {
+  position: relative;
+}
+body::before {
+  background-image: url("../images/lg-school.png");
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  min-width: 1224px;
+}
+.container-top {
+  margin-top: 25px;
+}
+.container-width {
+  min-width: 1224px;
+}
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-img {
+  width: 1260px;
+  height: 300px;
+}
+.content-bottom-img {
+  width: 1260px;
+  height: 150px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  width: 1260px;
+  height: auto;
+  margin-top: 10px;
+}
+.list-top {
+  display: flex;
+  justify-content: space-between;
+}
+.list-top-text {
+  padding: 10px;
+  font-size: 16px;
+}
+.msg-minWidth {
+  min-width: 593px;
+}
+.msg-box {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.listbox1 {
+  height: 400px;
+}
+.listbox2 {
+  height: 210px;
+}
+.margin-right {
+  margin-right: 10px;
+}
+.padding-0 {
+  padding: 0;
+}
+.underline {
+  border: 1px solid #3866a5;
+  position: absolute;
+  width: 100px;
+  top: 35px;
+  left: -15px;
+}
+.title-text {
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 65%;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+.newsList {
+  list-style-type: none;
+  padding: 10px;
+}
+.list-img {
+  padding: 10px;
+}
+.list-article {
+  width: 70%;
+}
+.flex-grow {
+  flex-grow: 1;
+}
+.text-align-end {
+  text-align: end;
 }

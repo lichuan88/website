@@ -22,3 +22,16 @@
 .article_topic_public {
   background-color: var(--gray);
 }
+.header-bg {
+  background-color: var(--textWhite);
+}
+.bg-nav {
+  background-color: var(--base);
+}
+
+.footer-bg {
+  background-color: var(--base);
+}
+.listbox-bg {
+  background-color: var(--textWhite);
+}
