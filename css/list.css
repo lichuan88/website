@@ -95,6 +95,9 @@ img {
     color: #711ca2;
 }
 .list-contain{
+    position: relative;
+    top: 0;
+    left: 0;
     margin: 10px;
     border-top: 1px solid #d9dadb;
 }
