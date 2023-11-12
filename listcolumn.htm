@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/content.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/list.css">
 </head>
 
 <body>
@@ -21,9 +22,9 @@
             </div>
             <div class="header-search" id="search">
                 <div class="inner search-panel wp-panel panel-3" frag="面板3">
-                        <div frag="窗口20" class="search-size">
-                            <div frag="窗口内容"></div>
-                        </div>
+                    <div frag="窗口20" class="search-size">
+                        <div frag="窗口内容"></div>
+                    </div>
                 </div>
                 <div style="margin-left: 50px;">
                     <a href="https://www.gcu.edu.cn" target="_blank"><button class="btn-gcu">学校首页</button></a>
@@ -34,7 +35,7 @@
             <div class="container-fluid">
                 <!-- navigation is begin -->
                 <nav>
-                <!-- Brand and toggle get grouped for better mobile display -->
+                    <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                             data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -44,21 +45,14 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div frag="窗口1" 
-                    class="collapse navbar-collapse" 
-                    id="bs-example-navbar-collapse-1">
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div frag="窗口1" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <!--[NaviStructBegin]-->
                         <ul class="nav navbar-nav ">
                             <!--[NaviItemCycleBegin]-->
                             <li class="dropdown item nav-item">
-                                <a href="{栏目URL}" 
-                                class="dropdown-toggle textColor" 
-                                data-toggle="dropdown" 
-                                role="button"
-                                aria-haspopup="true" 
-                                aria-expanded="false"
-                                >{栏目名称}</a>
+                                <a href="{栏目URL}" class="dropdown-toggle textColor" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="false">{栏目名称}</a>
                                 <!--[MenuStructBegin]-->
                                 <ul class="dropdown-menu ">
                                     <!--[MenuItemCycleBegin]-->
@@ -82,8 +76,62 @@
         </div>
     </header>
     <!-- 中间内容 -->
-    <div style="height: 1500px;">
-
+    <div class="contain">
+        <div class="contain-img">
+            <img src="./images/listImg.png" alt="">
+            <div class="contain-words">
+                <table class="table">
+                    <tr>
+                        <td>以评促建</td>
+                        <td>以评促改</td>
+                        <td>以评促管</td>
+                    </tr>
+                    <tr>
+                        <td>评建结合</td>
+                        <td>重在建设</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="contain-body">
+            <div class="contain-nav">
+                <div class="location" frag="窗口101">
+                    <p>{位置栏目}</p>
+                </div>
+                <div class="name" frag="窗口102">
+                    <!--[ColumnCycleBegin]-->
+                    <div>
+                        <a href="{栏目URL}">{栏目名称}</a>
+                    </div>
+                    <!--[ColumnCycleEnd]-->
+                </div>
+            </div>
+            
+            <div class="list inline" frag="窗口103">
+                <div class="title-out">
+                    <!--[ColumnCycleBegin]-->
+                    <div class="title">
+                        <span>{位置栏目}</span>
+                    </div>
+                    <!--[ColumnCycleEnd]-->
+                </div>
+                <div class="list-contain">
+                    <ul>
+                        <!-- [InfoCycleBegin] -->
+                        <li class="">
+                            <a
+                                href="{文章URL}"
+                                target="_blank"
+                                title="{文章标题}"
+                                >{标题}</a
+                            >
+                            <span class="pull-right">{发布时间}</span>
+                        </li>
+                        <!-- [InfoCycleEnd] -->
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- 底部 -->
     <footer>
@@ -95,7 +143,7 @@
                     <span>邮编: 510800</span>
                 </div>
                 <div>
-                    <span>版权所有: Copyright©2023{站点版权}</span>  
+                    <span>版权所有: Copyright©2023{站点版权}</span>
                 </div>
                 <div>
                     <span>技术支持: {技术支持}</span>
@@ -103,6 +151,7 @@
             </div>
         </div>
     </footer>
+    <div class="background"></div>
 </body>
 
 </html>
