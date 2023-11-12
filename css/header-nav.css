@@ -1,14 +1,17 @@
 .header-size{
-    padding:  0;
-    min-width: 1024px;
+    padding: 0;
+    min-width: 1224px;
     position: sticky;
     top: 0;
+    padding-top: 15px;
+    z-index: 1;
 }
+
 .header-top-flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between ;
     align-items: center;
-    flex-wrap: nowrap;
+    width: 95%;
 }
 .header-search{
     display: flex;
@@ -49,4 +52,16 @@
 }
 .margin-top-nav{
     margin-top: 15px;
+}
+.header-img{
+    position: relative;
+    width: 400px;
+    height: 50px;
+}
+.img-right-text{
+    position: absolute;
+    right: -115px;
+    bottom: 0;
+    font-size: 22px;
+    color: #701c96;
 }

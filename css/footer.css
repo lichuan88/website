@@ -1,6 +1,7 @@
 .footer-size{
     width: 100%;
-    height: 150px;
+    min-width: 1224px;
+    padding: 0;
 }
 .footer-flex{
     display: flex;
@@ -18,4 +19,28 @@
     width: 400px; 
     display: flex;
     justify-content: space-around;
+}
+.f_size{
+    height: 150px;
+}
+.footer-top{
+    background-color: #f3f7ff;
+}
+.link-style{
+    position: relative;
+    left: 15px;
+    top: 40px;
+    font-size: 16px;
+}
+.m-right{
+    margin-right: 50px;
+}
+.f_img{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.bottom-img{
+    height: 50px;
+    width: 300px;
 }

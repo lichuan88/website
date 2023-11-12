@@ -1,14 +1,20 @@
 :root{
     --base: #701c96;
-    --textWhite: white;
+    --textWhite: #fff;
 }
 .textColor{
     color: var(--textWhite);
 }
-
+.header-bg{
+    background-color: var(--textWhite);
+}
 .bg-nav{
     background-color: var(--base);
 }
+
 .footer-bg{
     background-color: var(--base);
+}
+.listbox-bg{
+    background-color: var(--textWhite);
 }
